@@ -1,17 +1,4 @@
 # Coding Challenge -Backend
-
-## Application.properties
-```application.properties
-quarkus.http.port=9090
-quarkus.swagger-ui.enable=true
-quarkus.datasource.db-kind=mysql
-quarkus.datasource.username=root
-quarkus.datasource.password=password
-quarkus.datasource.jdbc.url=jdbc:mysql://localhost:3306/TodoDB?serverTimezone=UTC
-quarkus.hibernate-orm.log.sql=true
-quarkus.hibernate-orm.database.generation=create
-spring.graphql.graphiql.enabled=true
-```
 ## Create a Todo 
 ```
 mutation CREATE {
@@ -113,6 +100,18 @@ query{
      }
   }
     }
+```
+## Application.properties
+```application.properties
+quarkus.http.port=9090
+quarkus.swagger-ui.enable=true
+quarkus.datasource.db-kind=mysql
+quarkus.datasource.username=root
+quarkus.datasource.password=password
+quarkus.datasource.jdbc.url=jdbc:mysql://localhost:3306/TodoDB?serverTimezone=UTC
+quarkus.hibernate-orm.log.sql=true
+quarkus.hibernate-orm.database.generation=create
+spring.graphql.graphiql.enabled=true
 ```
 
 # Screenshots
