@@ -11,9 +11,37 @@ quarkus.datasource.jdbc.url=jdbc:mysql://localhost:3306/TodoDB?serverTimezone=UT
 quarkus.hibernate-orm.log.sql=true
 quarkus.hibernate-orm.database.generation=create
 spring.graphql.graphiql.enabled=true
+```
+## Create a Todo 
+```
+mutation CREATE {
+  createTodo(
+    todo: {
+      name: "hello Todo"
+      description: "manage and organize evening tasks "
+    }
+    tasks: [
+            {
+        name: "Go to Rewe to buy Groceries "
+        description: "Buying Groceries for dinner preparation"
+      }
+      {
+        name: "Listen to music"
+        description: "helps to reduce stress"
+      }
 
-
-
+    ]
+  ) {
+    id
+    name
+    description
+    tasks {
+      id
+      name
+      description
+    }
+  }
+}
 ```
 
 # Screenshots
