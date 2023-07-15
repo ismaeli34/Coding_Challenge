@@ -44,6 +44,77 @@ mutation CREATE {
 }
 ```
 
+## Update a Todo
+```
+mutation {
+  updateTodo(id: 4, todoUpdate: {
+    name: "Meow Todo",
+    description: "manage and organize Night tasks"
+  }
+    taskUpdates: [
+            {
+        name: "Go to Rewe to buy Groceries "
+        description: "Buying Groceries for dinner preparation"
+      }
+      {
+        name: "Listen to music"
+        description: "helps to reduce stress"
+      }
+
+    ]
+  
+  ) {
+    id
+    name
+    description
+    tasks {
+      id
+      name
+      description
+    }
+  }
+}
+
+```
+## Delete Todo
+```
+ mutation  {
+   deleteTodo(id :3)
+}
+```
+
+## Get Todo by Id
+```
+query{
+  todo(id: 2) {
+    name
+    description
+    id tasks {
+      id
+        name
+        description
+     }
+   
+  }
+}
+```
+
+## Get all Todos
+```
+ query {
+  todos{
+    name,
+    description,
+    id 
+    tasks {
+     id
+       name
+       description
+     }
+  }
+    }
+```
+
 # Screenshots
 ![Screenshot 2023-07-15 at 5 03 16 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/2d7e69df-8ce5-41d9-8deb-b2e0b854f44e)
 
