@@ -1,4 +1,4 @@
-# code-with-quarkus-todoapp
+# Coding Challenge -Backend
 
 ## Application.properties
 ```application.properties
