@@ -1,6 +1,6 @@
 # code-with-quarkus-todoapp
 
-## Usage
+## Application.properties
 ```application.properties
 quarkus.http.port=9090
 quarkus.swagger-ui.enable=true
