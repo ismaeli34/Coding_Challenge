@@ -1,7 +1,20 @@
 # code-with-quarkus-todoapp
 
 ## Usage
+```application.properties
+quarkus.http.port=9090
+quarkus.swagger-ui.enable=true
+quarkus.datasource.db-kind=mysql
+quarkus.datasource.username=root
+quarkus.datasource.password=password
+quarkus.datasource.jdbc.url=jdbc:mysql://localhost:3306/TodoDB?serverTimezone=UTC
+quarkus.hibernate-orm.log.sql=true
+quarkus.hibernate-orm.database.generation=create
+spring.graphql.graphiql.enabled=true
 
+
+
+```
 
 # Screenshots
 ![Screenshot 2023-07-15 at 5 03 16 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/2d7e69df-8ce5-41d9-8deb-b2e0b854f44e)
