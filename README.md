@@ -17,7 +17,7 @@ spring.graphql.graphiql.enabled=true
 mutation CREATE {
   createTodo(
     todo: {
-      name: "hello Todo"
+      name: "Evening Todo"
       description: "manage and organize evening tasks "
     }
     tasks: [
@@ -48,7 +48,7 @@ mutation CREATE {
 ```
 mutation {
   updateTodo(id: 4, todoUpdate: {
-    name: "Meow Todo",
+    name: "Night Todo",
     description: "manage and organize Night tasks"
   }
     taskUpdates: [
