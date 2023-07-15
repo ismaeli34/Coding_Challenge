@@ -1,0 +1,102 @@
+#------- create todos-------
+#mutation CREATE {
+#    createTodo(
+#        todo: {
+#            name: "Evening Todo"
+#            description: "manage and organize evening tasks "
+#        }
+#        tasks: [
+#            {
+#                name: "Go to Rewe to buy Groceries "
+#                description: "Buying Groceries for dinner preparation"
+#            }
+#            {
+#                name: "Listen to music"
+#                description: "helps to reduce stress"
+#            }
+#
+#        ]
+#    ) {
+#        id
+#        name
+#        description
+#        tasks {
+#            id
+#            name
+#            description
+#        }
+#    }
+#}
+
+
+
+
+# ------update todos-----
+# mutation {
+#   updateTodo(id: 4, todoUpdate: {
+#     name: "Meow Todo",
+#     description: "manage and organize Night tasks"
+#   }
+#     taskUpdates: [
+#             {
+#         name: "Go to Rewe to buy Groceries "
+#         description: "Buying Groceries for dinner preparation"
+#       }
+#       {
+#         name: "Listen to music"
+#         description: "helps to reduce stress"
+#       }
+
+#     ]
+
+#   ) {
+#     id
+#     name
+#     description
+#     tasks {
+#       id
+#       name
+#       description
+#     }
+#   }
+# }
+
+
+
+# -----delete todo-----
+# mutation  {
+#   deleteTodo(id :3)
+# }
+
+
+# -----by todo id-----
+# query{
+#   todo(id: 2) {
+#     name
+#     description
+#     id tasks {
+#       id
+#         name
+#         description
+#      }
+
+#   }
+# }
+
+
+
+
+# get all todos
+#  query {
+#   todos{
+#     name,
+#     description,
+#     id
+#     tasks {
+#      id
+#        name
+#        description
+#      }
+#   }
+
+#     }
