@@ -1,5 +1,20 @@
 # code-with-quarkus-todoapp
 
+# Screenshots
+![Screenshot 2023-07-15 at 5 03 16 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/2d7e69df-8ce5-41d9-8deb-b2e0b854f44e)
+
+![Screenshot 2023-07-15 at 5 05 53 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/b576d601-6ad2-4743-8a40-966c597fb062)
+
+![Screenshot 2023-07-15 at 5 07 21 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/04ce1afa-5a1d-4aa1-83f1-c1cb30214a85)
+
+![Screenshot 2023-07-15 at 5 08 03 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/96f7c309-a922-4290-8ccc-f59e706b6df7)
+
+![Screenshot 2023-07-15 at 5 09 22 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/84d2fe3f-ca9b-454c-8ac0-ca8050d9b712)
+
+![Screenshot 2023-07-15 at 5 04 09 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/66dcaef1-2876-4343-abcb-df2d536f3b9d)
+
+
+
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
