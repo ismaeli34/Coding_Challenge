@@ -86,3 +86,4 @@ Start coding with this Hello GraphQL Query
 [Related guide section...](https://quarkus.io/guides/smallrye-graphql)
 # Graphql_Quarkus_assignment
 # Technical_assignment
+# Coding_Challenge
