@@ -1,4 +1,11 @@
 # Coding Challenge -Backend
+## To Run the application
+```
+./mvnw quarkus:dev 
+
+```
+
+
 ## Create a Todo 
 ```
 mutation CREATE {
