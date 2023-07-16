@@ -1,8 +1,10 @@
 package org.acme.fetcher.mutation;
 
 
+import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
+import org.acme.dto.TodoDto;
 import org.acme.entity.Task;
 import org.acme.entity.Todo;
 import org.acme.input.TaskInput;
@@ -12,6 +14,7 @@ import org.acme.repository.TodoRepository;
 import org.eclipse.microprofile.graphql.GraphQLApi;
 import org.eclipse.microprofile.graphql.Mutation;
 import org.eclipse.microprofile.graphql.Name;
+import org.modelmapper.ModelMapper;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,9 +28,12 @@ import java.util.List;
 public class TodoMutation {
     private final TodoRepository todoRepository;
     private final TaskRepository taskRepository;
+
+    @Inject
+    ModelMapper modelMapper;
     @Mutation("createTodo")
     @Transactional
-    public Todo createTodo(@Name("todo") TodoInput todoInput, @Name("tasks") List<TaskInput> taskInputs) {
+    public TodoDto createTodo(@Name("todo") TodoInput todoInput, @Name("tasks") List<TaskInput> taskInputs) {
         Todo todoToSave = new Todo();
         todoToSave.setName(todoInput.getName());
         todoToSave.setDescription(todoInput.getDescription());
@@ -45,7 +51,9 @@ public class TodoMutation {
 
         todoToSave.setTasks(tasks);
         todoRepository.persist(todoToSave);
-        return todoToSave;
+        TodoDto todoDto = modelMapper.map(todoToSave, TodoDto.class);
+
+        return todoDto;
 
     }
 
@@ -69,7 +77,7 @@ public class TodoMutation {
 
     @Mutation("updateTodo")
     @Transactional
-    public Todo updateTodo(
+    public TodoDto updateTodo(
             @Name("id") Long id,
             @Name("todoUpdate") TodoInput updatedTodo,
             @Name("taskUpdates") List<TaskInput> updatedTasks
@@ -92,7 +100,9 @@ public class TodoMutation {
 
             todoToUpdate.setTasks(tasks);
             todoRepository.persist(todoToUpdate);
-            return todoToUpdate;
+            TodoDto todoDto = modelMapper.map(todoToUpdate, TodoDto.class);
+
+            return todoDto;
         }
         return null;
     }
