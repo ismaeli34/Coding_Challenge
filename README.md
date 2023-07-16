@@ -1,5 +1,5 @@
 # Coding Challenge -Backend
-## To Run the application
+## To Run the Quarkus application
 ```
 ./mvnw quarkus:dev 
 
