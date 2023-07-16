@@ -115,21 +115,18 @@ spring.graphql.graphiql.enabled=true
 ```
 
 # Screenshots
-![Screenshot 2023-07-15 at 5 03 16 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/2d7e69df-8ce5-41d9-8deb-b2e0b854f44e)
+![Screenshot 2023-07-15 at 5 03 16 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/710a1d54-a894-49cd-8357-b4319bbc218b)
 
-![Screenshot 2023-07-15 at 5 05 53 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/b576d601-6ad2-4743-8a40-966c597fb062)
+![Screenshot 2023-07-15 at 5 05 53 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/8089fb96-ba5f-40cc-ac8e-b2efa02d3cbb)
+![Screenshot 2023-07-15 at 5 07 21 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/6a176668-7bec-4992-b7d3-7faf25d37474)
+![Screenshot 2023-07-15 at 5 08 03 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/28cbf205-8bf8-4b1c-bf2f-c511d726a767)
+![Screenshot 2023-07-15 at 5 09 22 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/22891106-49a9-47bb-a171-642a841d6bde)
+![Screenshot 2023-07-15 at 5 04 09 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/6317e05b-1102-48c0-af44-38e7f9fbafe9)
 
-![Screenshot 2023-07-15 at 5 07 21 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/04ce1afa-5a1d-4aa1-83f1-c1cb30214a85)
-
-![Screenshot 2023-07-15 at 5 08 03 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/96f7c309-a922-4290-8ccc-f59e706b6df7)
-
-![Screenshot 2023-07-15 at 5 09 22 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/84d2fe3f-ca9b-454c-8ac0-ca8050d9b712)
-
-![Screenshot 2023-07-15 at 5 04 09 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/66dcaef1-2876-4343-abcb-df2d536f3b9d)
 
 ## USING SMALLRYE GRAPHQL CLIENT
 
-![Screenshot 2023-07-16 at 8 27 42 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/9100ad05-924c-4d10-9459-61b6850b459b)
+![Screenshot 2023-07-16 at 8 27 42 PM](https://github.com/ismaeli34/Coding_Challenge/assets/17925504/d100b409-92f4-414d-a359-526f111caa47)
 
 
 
